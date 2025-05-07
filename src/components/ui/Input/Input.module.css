@@ -1,0 +1,17 @@
+.input {
+  outline: none;
+  background: var(--color-secondary-90);
+  transition: border 0.1s ease;
+}
+
+.input:focus {
+  border-color: var(--color-primary-50);
+}
+
+.input::placeholder {
+  color: var(--color-secondary-50);
+}
+
+.label {
+  min-width: 80px;
+}

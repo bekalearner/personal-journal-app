@@ -1,0 +1,8 @@
+@import '@/assets/styles/base.css';
+@import '@/assets/styles/utilities/box-model.css';
+@import '@/assets/styles/utilities/colors.css';
+@import '@/assets/styles/utilities/typography.css';
+
+body {
+  background-color: var(--color-secondary-90);
+}

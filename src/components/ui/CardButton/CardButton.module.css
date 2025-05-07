@@ -1,0 +1,9 @@
+.card-button {
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.card-button:hover {
+  background-color: var(--color-secondary-70);
+  border-color: var(--color-secondary-70);
+}

@@ -1,0 +1,13 @@
+.textarea {
+  outline: none;
+  background: var(--color-secondary-90);
+  transition: border 0.1s ease;
+}
+
+.textarea:focus {
+  border-color: var(--color-primary-50);
+}
+
+.textarea::placeholder {
+  color: var(--color-secondary-50);
+}
