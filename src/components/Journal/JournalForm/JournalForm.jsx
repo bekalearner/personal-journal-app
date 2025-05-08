@@ -71,7 +71,7 @@ export const JournalForm = () => {
     if (!validate()) return
 
     if (current) {
-      updateItem(current.id, formData)
+      updateItem(current.id, {id: current.id, ...formData})
     } else {
       addItem({ ...formData, id: new Date().getTime() })
       setFormData({
